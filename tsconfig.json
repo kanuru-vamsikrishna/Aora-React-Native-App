@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "types": ["nativewind/types"],
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(tabs)/index.tsx", "app/_layout.tsx", "**/*.ts", "**/*.tsx", "nativewind.d.ts", "constants/icons.ts"  ],
+"exclude": ["node_modules"]
+}
