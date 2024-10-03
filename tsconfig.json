@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
     "strict": true,
     "paths": {
       "*": ["node_modules/*"]
@@ -12,6 +13,6 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/(tabs)/index.tsx", "app/_layout.tsx", "**/*.ts", "**/*.tsx", "nativewind.d.ts", "constants/icons.ts"  ],
+, "app/index.tsx", "app/_layout.tsx", "**/*.ts", "**/*.tsx", "nativewind.d.ts", "assets.d.ts", "constants/icons.ts", "app/(tabs)/_layout.tsx"  ],
 "exclude": ["node_modules"]
 }
